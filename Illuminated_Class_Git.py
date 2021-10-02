@@ -213,7 +213,7 @@ class Illuminated:
         thb_light = 90 - tha_light
 
 
-        n_light = self.n_vec(tha_light,thb_light,90)
+        n_light = -1.0 * self.n_vec(tha_light,thb_light,90)
 
 
 
