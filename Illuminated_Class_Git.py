@@ -296,5 +296,5 @@ class Illuminated:
 
 
 
-#obj = Illuminated("cube.stl", [0, 90, 90, 45], [90, 90, 0], 10, 1, 270)
+#obj = Illuminated("cube.stl", [0, 90, 90, 45], [90, 90, 0], 360, 1, 90)
 #obj.execution()
