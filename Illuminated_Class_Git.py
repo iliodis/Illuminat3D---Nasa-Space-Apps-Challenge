@@ -286,15 +286,15 @@ class Illuminated:
 
         plt.style.use('seaborn')
         plt.scatter(x_axis, y_axis,
-                        marker= '.', label = 'No initial rotation')
+                        marker= '.', label = 'Illuminated3D method')
         plt.legend(loc = 1)
         plt.xlabel('Rotational Phase')
         plt.ylabel('Light (Geometric Units)')
-        plt.title('Light Curve: Cube')
+        plt.title('Light Curve')
         plt.show()
         
 
 
 
-obj = Illuminated("cube.stl", [0, 90, 90, 45], [90, 90, 0], 10, 1, 270)
-obj.execution()
+#obj = Illuminated("cube.stl", [0, 90, 90, 45], [90, 90, 0], 10, 1, 270)
+#obj.execution()
