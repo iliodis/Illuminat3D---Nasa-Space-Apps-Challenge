@@ -3,16 +3,16 @@ This project participates in the Nasa Space Apps Challenge 2021.
 # Documentation of the Illuminat3d App
 # Version 1.0
 
-The main scope of this application is to plot the light curve of an asteroid for certain values of the input variables. The project consists of two .py files (<name_of_the_gui_file>.py and <name_of_the_illuminated_class>.py).
+The main scope of this application is to plot the light curve of an asteroid for certain values of the input variables. The project consists of two .py files (<GUIFinal>.py and <Illuminated_Class_Git>.py).
 
-## <name_of_the_gui_file>.py file
+## <GUIFinal>.py file
 This is the file that we create the **User Interface** (**UI**) of our application. It have a space that the user load his 3D model (*.stl* file format). Then the user must fill in every enrty of the variables in the right form and finally push the **Run Program** button to see the light curve plot in the corresponding window. The User Interface except all the widgets (***Button***, ***Label***, ***Entry***, ***Images***) has and 3 functions:
 * **browseFiles()**: in this function we set the directory that the application can search to find the user's 3D model. When a file is selected then the label of the file explorer change text to specify the path of the file.
 * **popup_window_1()**: function that triggered when the info button is pressed and pops out an information message.
 * **checkInputs()**: in this function we check the validity of the input variables and then create an **Illuminated** object to start running the main program.
 
 
-## <name_of_the_illuminated_class>.py file
+## <Illuminated_Class_Git>.py file
 In this file we create a **class Illuminated** to control the core of our program and to plot the **light curves** of the input 3D models. This class has several functions to produce the expected output.
 * **__ init__(self, filename, initRot, rotAxis, frames, albedo, omega)**: is the contructor of the class which assigns the proper values to the class variables. It recieves as inputs the filename of the 3D model(**filename**), the initial rotation axis and angle (**initRot**), the rotational axis (**rotAxis**), the number of frames (**frames**), the albedo (**albedo**) and the omega angle(**omega**).
 * **checkTheModel(self)**: this function check if the 3D model that the user inserted is valid(**close object**). Return boolean value **True** or **False**.
@@ -44,7 +44,7 @@ pip install shapely
 After you download the project in your computer, you must move to the directory that the python files are and run the command below.
 
 ```python
-python <name_of_the_gui_file>.py
+python <GUIFinal>.py
 ```
 
 ## Members
