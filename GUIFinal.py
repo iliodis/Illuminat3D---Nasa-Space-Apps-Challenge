@@ -8,7 +8,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import os
 
 
-from Illuminated_Class_Git_1 import Illuminated
+from Illuminated_Class_Git import Illuminated
 
 
 #In this function we check if the variables are valid
